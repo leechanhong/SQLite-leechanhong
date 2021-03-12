@@ -1,4 +1,4 @@
-package com.human.sqlite_kimilguk;
+package com.human.sqlite_leechanhong;
 
 import org.junit.Test;
 
