@@ -1,6 +1,5 @@
 package com.human.sqlite_leechanhong;
 
-import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -31,11 +30,12 @@ public class MainActivity extends AppCompatActivity {
         mSqLiteDatabase = mDatabaseHelper.getWritableDatabase();
         //테스트로 mSqLiteDatabase 객체를 이용해서 더미데이터 인서트 테스트
         //자바의 Hashmap형식과 비슷한 안드로이드 데이터형 ContentValues형
-        ContentValues contentValues = new ContentValues();
+       /* ContentValues contentValues = new ContentValues();
         contentValues.put(StudentTable.GRADE, 4);
         contentValues.put(StudentTable.NUMBER,20210004);
         contentValues.put(StudentTable.NAME,"아무개4");
         mSqLiteDatabase.insert(StudentTable.TABLE_NAME,null,contentValues);
+        */
         //mItemList에 셀렉트 쿼리 결과값이 셋 되어 있어야 함.
 
         //List 실행 리사이클러 어댑터 바인딩(아래)
