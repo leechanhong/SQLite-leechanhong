@@ -79,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
     private void bindList() {
         //객체 생성
         mRecyclerAdapter = new RecyclerAdapter(mItemlist);
+        //어댑터의 OnItemClickListener 추가예정....
+
         //리사이클러뷰xml과 어댑터 바인딩(attach) No adapter attached
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
